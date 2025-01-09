@@ -6,7 +6,7 @@ This is a personal portfolio website designed to showcase the skills, experience
 
 ## Display
 
-![Website View](https://github.com/ajjiadd/simple-portfolio-website-design/image/display?raw=true)
+![Website View](https://github.com/ajjiadd/simple-portfolio-website-design/raw/main/images/display.png?raw=true)
 
 ## Features
 
