@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+}
+
+/* extention  */
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary-trnspnt{
+    background: transparent;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: 2px solid #FD6E0A;
+    cursor: pointer;
+}
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+    color: #757575;
+}
+
+
+/* header section  */
+.header-section{
+    background: url("./images/developer.png"),url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+/* nav style  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav h1 span{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+.btn{
+    color: white;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+
+/* banner style  */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: top right bottom left; */
+    margin: 0 38px 0 200px;
+}
+
+.banner-gretting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.btn-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.btn-container a button i{
+    font-size: 27px;
+}
+
+.banner-profile-pic{
+    width: 584px;
+}
+
+/* about section design  */
+.about{
+    max-width: 1140px;
+    background: #FFF8F3;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    max-width: 827px;
+    background: #FFFFFF;
+    border: 1px solid #474747;
+    margin: 135px 155px;
+    padding: 10px;
+}
+
+.about-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-description{
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.bio-address{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bio-address p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.bio-address p span{
+    font-weight: 700;
+    color: #474747;
+}
+
+/* skill section  */
+
+.skills{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.skill-section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.skill-description{
+ margin: 30px 345px;
+ font-size: 18px;
+ line-height: 30px;
+}
+
+.card-container{
+    display: flex;
+    margin: 30px 200px;
+    gap: 24px;
+}
+
+.card{
+    max-width: 267px;
+    text-align: start;
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.img-container{
+    width: 44px;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.card-content{
+    max-width: 204px;
+    margin-top: 30px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-description{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* Bio data sections design  */
+.bioDataSection{
+text-align: center;
+margin: 130px;
+}
+
+.bioDataSecTitle{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.EduExp-container{
+    margin: 80px 200px;
+    display: flex;
+    gap: 24px;
+}
+
+.MyEducation{
+    text-align: start;
+}
+
+.MyExperience{
+    text-align: start;
+}
+
+.subTitle{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.EduContent{
+
+}
+
+.EduContent h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #474747;
+}
+
+
+.eduDetails{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.eduDescription{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+
+.tpBorder{
+ border-top: 1px solid #D1D1D1;
+ margin-top: 30px;
+}
+
+.BioData-btn-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/* Footer section design  */
+
+.footerSection{
+    background-color: #FFF8F3;
+    max-width: 1600px;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footerContainer{
+    margin: 0 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.footerContainer h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footerLeft p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.icon-footer a{
+    text-decoration: none;
+}
+.icon-footer i{
+    font-size: 24px;
+    color: #FD6E0A;
+}
+
+.footerRight .inputsMsg form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerRight .inputsMsg form input,textarea{
+    border-radius: 5px;
+    border: none;
+    color: #757575;
+    background: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 461px;
+}
