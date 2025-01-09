@@ -4,6 +4,10 @@
 
 This is a personal portfolio website designed to showcase the skills, experience, and achievements of a web developer. The website is built using HTML, CSS, and JavaScript, and features a clean and modern design.
 
+## Display
+
+![Website View](https://github.com/ajjiadd/simple-portfolio-website-design/image/display?raw=true)
+
 ## Features
 
 * Clean and Modern Design: The website features a clean and modern design that is easy to navigate and visually appealing.
