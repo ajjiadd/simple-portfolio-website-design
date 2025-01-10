@@ -8,6 +8,8 @@ This is a personal portfolio website designed to showcase the skills, experience
 
 ![Website View](https://github.com/ajjiadd/simple-portfolio-website-design/raw/main/images/display.png?raw=true)
 
+**View Link:** https://ajjiadd.github.io/simple-portfolio-website-design/
+
 ## Features
 
 * Clean and Modern Design: The website features a clean and modern design that is easy to navigate and visually appealing.
