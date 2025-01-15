@@ -17,7 +17,7 @@ This is a personal portfolio website designed to showcase the skills, experience
 * Skills Section: The website includes a skills section that showcases the developer's technical skills and expertise.
 * Education and Experience Section: The website includes a section that highlights the developer's education and work experience.
 * Contact Section: The website includes a contact section that allows visitors to get in touch with the developer.
-* Responsive Design: No responsive.
+* Responsive Design: Full responsive.
 * Social Media Links: The website includes links to the developer's social media profiles.
 
 ## Technologies Used

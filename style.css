@@ -50,40 +50,45 @@
 }
 
 /* nav style  */
-
-nav{
+/* Navbar Styles */
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
     align-items: center;
 }
 
-nav h1{
+nav h1 {
     font-size: 45px;
     font-weight: 800;
 }
 
-nav h1 span{
+nav h1 span {
     color: #FD6E0A;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
+    gap: 20px; /* Added gap between menu items */
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
-    margin-right: 50px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
-.btn{
+nav ul li a:hover {
+    color: #FD6E0A; /* Highlight color on hover */
+}
+
+.btn {
     color: white;
     border-radius: 5px;
     background: #FD6E0A;
@@ -363,3 +368,171 @@ margin: 130px;
     margin-bottom: 20px;
     width: 461px;
 }
+
+/* Media Queries for Responsive Design */
+
+/* For screens smaller than 768px (Mobile Devices) */
+@media (max-width: 768px) {
+    /* Header Section */
+    .header-section {
+        background: none;
+    }
+
+    nav {
+        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px; /* Added gap between logo and menu */
+    }
+
+    nav h1 {
+        font-size: 30px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-right: 0;
+    }
+
+    .btn {
+        padding: 15px 10px; /* Adjusted button padding for smaller screens */
+    }
+
+
+    .banner {
+        flex-direction: column;
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-profile-pic {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .btn-container {
+        justify-content: center;
+    }
+
+    /* About Section */
+    .about {
+        margin: 50px 20px;
+    }
+
+    .about-content {
+        margin: 20px;
+    }
+
+    .bio-address {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Skills Section */
+    .skills {
+        margin-top: 50px;
+    }
+
+    .skill-description {
+        margin: 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    /* Bio Data Section */
+    .bioDataSection {
+        margin: 50px 20px;
+    }
+
+    .EduExp-container {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    /* Footer Section */
+    .footerContainer {
+        flex-direction: column;
+        margin: 20px;
+        gap: 30px;
+    }
+
+    .footerRight .inputsMsg form input,
+    .footerRight .inputsMsg form textarea {
+        width: 100%;
+    }
+}
+
+/* For screens between 768px and 1024px (Tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Header Section */
+    nav {
+        margin: 30px 50px;
+    }
+
+    nav h1 {
+        font-size: 35px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .banner {
+        margin: 0 50px;
+    }
+
+    /* About Section */
+    .about {
+        margin: 80px 50px;
+    }
+
+    .about-content {
+        margin: 50px;
+    }
+
+    /* Skills Section */
+    .skill-description {
+        margin: 30px 100px;
+    }
+
+    .card-container {
+        margin: 30px 50px;
+    }
+
+    /* Bio Data Section */
+    .bioDataSection {
+        margin: 80px 50px;
+    }
+
+    .EduExp-container {
+        margin: 50px;
+    }
+
+    /* Footer Section */
+    .footerContainer {
+        margin: 50px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    /* No changes needed for desktop as the original design is already optimized for larger screens */
+}
+
+
